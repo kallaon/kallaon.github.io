@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Bezpečnostný systém mestskej polície</title>
+    <title>Sledovač ceny pre Bazoš.sk</title>
 
 
     <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -25,11 +25,11 @@
 </head>
 <body id="test">
 
-<section class="content-section bg-danger text-white text-center" id="services">
+<section class="content-section bg-info text-white text-center" id="services">
     <div class="container">
         <div class="content-section-heading">
             <a href="../index.html"><h3 class="text-secondary mb-0">späť na halvnú stránku</h3></a>
-            <h2 class="mb-5">Bezpečnostný systém mestskej polície</h2>
+            <h2 class="mb-5">Sledovač ceny pre bazoš.sk</h2>
         </div>
         <div class="row">
             <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
@@ -43,29 +43,29 @@
             </div>
             <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
           <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="fab fa-php"></i>
+            <i class="fas fa-database"></i>
           </span>
                 <h4>
-                    <strong>PHP</strong>
+                    <strong>MySQL</strong>
                 </h4>
                 <!--                <p class="text-faded mb-0">PHP je podľa mňa stále v kurze ak je to možné rád ho využijem :)</p>-->
             </div>
 
             <div class="col-lg-3 col-md-6">
           <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="fab fa-apple"></i>
+            <i class="fas fa-chart-pie"></i>
           </span>
                 <h4>
-                    <strong>Swift</strong>
+                    <strong>Chart.js</strong>
                 </h4>
                 <!--                <p class="text-faded mb-0">Som otvorený všetkým technológiám a rád sa učím nové veci. V najbližšej dobe by som sa chcel povenovať <strong>C#</strong> a <strong>Javascriptu</strong></p>-->
             </div>
             <div class="col-lg-3 col-md-6">
           <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="fab fa-laravel"></i>
+            <i class="fas fa-prescription"></i>
           </span>
                 <h4>
-                    <strong>Laravel</strong>
+                    <strong>RegEx</strong>
                 </h4>
                 <!--                <p class="text-faded mb-0">Som otvorený všetkým technológiám a rád sa učím nové veci. V najbližšej dobe by som sa chcel povenovať <strong>C#</strong> a <strong>Javascriptu</strong></p>-->
             </div>
@@ -87,7 +87,7 @@
             <div class="tz-gallery">
 
                 <!--            <a class="lightbox" href="../img/p1/dash1.jpg">-->
-                <img src="../img/p1/dash1.jpg" alt="Park" class="img-fluid">
+                <img src="../img/p2/p23.png" alt="" class="img-fluid">
                 <!--            </a>-->
             </div>
         </div>
@@ -95,15 +95,18 @@
         <div class="col-md-6">
             <h3 class="my-3">Popis projektu</h3>
             <p>
-                Kompletný bezpečnostný systém pre mestskú políciu v Kežmarku. Zahŕňa mobilnú aplikáciu pre <strong>Android</strong> a <strong>iOS</strong>.
-                Aktivácia účtu aplikácie prebieha pomocou aktivačného kódu obdržaného v SMS správe.
+                <strong>BAZOŠ WEB CRAWLER</strong> je nástroj na analýzu inzerátov Apple pre portál <strong>bazos.sk</strong>.
+                Tento projekt bol vytvorený čisto z mojej iniciatívy, keď že vo voľnom čase opravujem telefóny iPhone.
             </p>
             <p>
-                Užívateľ môže pomocou aplikácie nahlásiť napr. požiar či stav núdze, na dispečing mestskej polície sa odošle jeho aktuálna poloha.
-                <strong>MSP</strong> tak môže k danému prípadu hneď vyraziť s informáciami o tom, kde, komu a aký prípad sa stal.
+                Úlohou tohto nástroja je analyzovať cenu daného modelu iPhonu. Užívateľ môže pri vyhľadávaní zadať rôzne parametre vyhľadávania,
+                pričom sa mu zobrazujú len výsledky, ktoré zodpovedajú kritériam filtru.
+                Tento nástroj vznikol hlavne kvôli zle spracovanému vyhľadávaniu na portály bazoš.sk ako aj k určeniu trhovej ceny daného zariadenia.
+                Predávajúci resp. kupujúci tak má väčší prehľad o trhovej hodnote.
             </p>
             <p>
-                K dispozícii je systém na správu užívateľov a na grafický prehľad hlásení ako aj systém obsahujúci mapu, kde dispečer vidí <strong>live</strong> hlásenia.
+                <strong>Nástroj pomocou regulárnych výrazov získa určitý počet inzerátov, ktoré naformátuje a uloží do databázy.
+                    Na základe vyhľadávania sa potom zorbazujú potrebné výsledky.</strong>
             </p>
 
 
@@ -115,26 +118,16 @@
         <div class="col-lg-6">
             <h3 class="my-3">Ďalšie použité technológie</h3>
             <ul class="fa-ul">
-                <li><span class="fa-li" ><i class="fab fa-google"></i></span>fastlane</li>
-                <li><span class="fa-li" ><i class="fab fa-bootstrap"></i></span>Bootstrap</li>
-                <li><span class="fa-li" ><i class="fas fa-database"></i></span>MySQL</li>
-                <li><span class="fa-li" ><i class="fab fa-buffer"></i></span>Blade</li>
+                <li><span class="fa-li" ><i class="fab fa-buffer"></i></span>thymeleaf</li>
+                <li><span class="fa-li" ><i class="fab fa-envira"></i></span>Spring Framework</li>
+                <li><span class="fa-li" ><i class="fas fa-box"></i></span>Maven</li>
             </ul>
         </div>
-        <div class="col-lg-3">
-            <h3 class="my-3">Referencie</h3>
-            <ul class="fa-ul">
-                <li><span class="fa-li" ><i class="fas fa-link"></i></span><a href="https://www.tvnoviny.sk/domace/1958139_kezmarok-ako-prvy-na-slovensku-spustil-aplikaciu-ktora-vam-privola-pomoc?__tuu7ntqxojq1njqgcxfzydhlntyyxndhzhe=-a1-v3&__tuu7ntqxozayndugcxfzydhlntyyxndhzhe=acmoqqromoyjg&__tuu7ntqxozi2njqgcxfzydhlntyyxndhzhe=-a1-v3&__tuu7ntqxozkzmj0gcxfzydhlntyyxndhzhe=-a1-v3&__tuu7ntqxozq2mtygcxfzydhlntyyxndhzhe=-a1-v3&__tuu7ntqxozy0nzagcxfzydhlntyyxndhzhe=-a1-v3">TV Markíza</a></li>
-                <li><span class="fa-li" ><i class="fas fa-link"></i></span><a href="https://www.ta3.com/clanok/1150550/mobilna-aplikacia-zachranuje-zivoty-novinku-zaviedli-v-kezmarku.html">TA3</a></li>
-                <li><span class="fa-li" ><i class="fas fa-link"></i></span><a href="https://www.startitup.sk/toto-mesto-ako-prve-na-slovensku-zavadza-aplikaciu-na-ochranu-obcanov/">STARTITUP</a></li>
-                <li><span class="fa-li" ><i class="fas fa-link"></i></span><a href="https://fontech.startitup.sk/toto-slovenske-mesto-ma-unikatny-projekt-ludia-si-zavolaju-pomoc-v-nudzi-cez-aplikaciu/">FONTECH</a></li>
-            </ul>
-        </div>
-        <div class="col-lg-3">
+
+        <div class="col-lg-6">
             <h3 class="my-3">Na stiahnutie</h3>
             <ul class="fa-ul">
-                <li><span class="fa-li" ><i class="fas fa-cloud-download-alt"></i></span><a href="https://play.google.com/store/apps/details?id=app.tssgroup.sk.sosappka">Android .apk</a></li>
-                <li><span class="fa-li" ><i class="fas fa-cloud-download-alt"></i></span><a href="https://itunes.apple.com/au/app/msp-sos/id1448479881?mt=8">iOS .ipa</a></li>
+                <li><span class="fa-li" ><i class="fab fa-github"></i></span><a href="https://github.com/kallaon/web_app_bazos">GitHub projekt</a></li>
             </ul>
         </div>
     </div>
@@ -152,33 +145,33 @@
 
                     <div class="col-sm-6 col-md-4">
                         <div class="thumbnail">
-                            <a class="lightbox" href="../img/p1/dash1.jpg">
-                                <img src="../img/p1/dash1.jpg" alt="Dashboard" class="img-fluid">
+                            <a class="lightbox" href="../img/p2/p21.png">
+                                <img src="../img/p2/p21.png" alt="Dashboard" class="img-fluid">
                             </a>
                             <div class="caption">
-                                <h3>Administračné rozhranie</h3>
-                                <p>Dashboard</p>
+                                <h3>Úvodná stránka</h3>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4">
                         <div class="thumbnail">
-                            <a class="lightbox" href="../img/p1/dash2.jpg">
-                                <img src="../img/p1/dash2.jpg" alt="Blokovanie užívateľa" class="img-fluid">
+                            <a class="lightbox" href="../img/p2/p22.png">
+                                <img src="../img/p2/p22.png" alt="Blokovanie užívateľa" class="img-fluid">
                             </a>
                             <div class="caption">
-                                <h3>Administračné rozhranie</h3>
-                                <p>Blokovanie užívateľa</p>
+                                <h3>Analyzovanie inzerátov</h3>
+                                <p>iPhone 7 128GB</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4">
                         <div class="thumbnail">
-                            <a class="lightbox" href="../img/p1/appka.jpg">
-                                <img src="../img/p1/appka.jpg" alt="Tuneel" class="img-fluid">
+                            <a class="lightbox" href="../img/p2/p23.png">
+                                <img src="../img/p2/p23.png" alt="Tuneel" class="img-fluid">
                             </a>
                             <div class="caption">
-                                <h3>Mobilná aplikácia</h3>
+                                <h3>Analyzovanie inzerátov</h3>
+                                <p>iPhone SE 64GB</p>
                             </div>
                         </div>
                     </div>
